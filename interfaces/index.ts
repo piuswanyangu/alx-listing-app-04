@@ -12,7 +12,7 @@ export interface CardProps{
 // button props
 export interface ButtonProps {
     label: string;
-    onclick?: ()=> void
+    onClick: () => void
 }
 // address interface
 export interface Address {
@@ -28,7 +28,7 @@ export interface Offers {
 }
 //  property props
 export interface PropertyProps {
-    description: ReactNode;
+    description?: ReactNode;
     name: string;
     address: Address;
     rating: number;
